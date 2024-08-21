@@ -3,4 +3,4 @@ publish:
   provider: github
   owner: artiberde27
   repo: electron-auto-update
-  token: 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
+  token: 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

@@ -6,7 +6,7 @@ autoUpdater.setFeedURL({
   provider: "github",
   repo: "electron-auto-update",
   owner: "artiberde27",
-  token: "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",
+  token: "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",
 });
 
 log.transports.file.level = "info";

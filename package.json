@@ -1,6 +1,6 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "electron-builder": "^24.13.3"
   },
   "dependencies": {
+    "electron-log": "^5.1.7",
     "electron-updater": "^6.2.1"
   },
   "repository": {

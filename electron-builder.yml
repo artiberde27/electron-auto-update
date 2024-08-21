@@ -1,4 +1,6 @@
 appId: com.example.ElectronAutoUpdate
 publish:
   provider: github
-  token: [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]
+  owner: artiberde27
+  repo: electron-auto-update
+  token: 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

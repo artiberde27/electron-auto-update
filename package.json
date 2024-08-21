@@ -1,11 +1,13 @@
 {
   "name": "electron-auto-update-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder build  --win --publish never",
+    "deploy": "electron-builder build  --win --publish always"
   },
   "author": "",
   "license": "ISC",
@@ -19,7 +21,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/artiberde27/electron-auto-update.git"
-  },
-  "build": "electron-builder build  --win --publish never",
-  "deploy": "electron-builder build  --win --publish always"
+  }
 }

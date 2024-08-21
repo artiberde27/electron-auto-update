@@ -2,6 +2,13 @@ const { app, BrowserWindow, ipcMain } = require("electron");
 const { autoUpdater } = require("electron-updater");
 const log = require("electron-log");
 
+autoUpdater.setFeedURL({
+  provider: "github",
+  repo: "electron-auto-update",
+  owner: "artiberde27",
+  token: "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",
+});
+
 log.transports.file.level = "info";
 autoUpdater.logger = log;
 
